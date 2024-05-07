@@ -264,7 +264,7 @@ function App() {
         <div className=" font-Kumbh-B font-bold pt-3 pb-4 border-b px-4 border-solid border-gray-400 mb-4">
           Cart
         </div>
-        <div className="px-4">
+        <div className="px-7 lg:px-4">
           {cartList.length === 0 && (
             <div className=" text-SCDarkgrayishblue px-16 pt-10 pb-14 font-Kumbh-B font-bold ">
               Your cart is empty
