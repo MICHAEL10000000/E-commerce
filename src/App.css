@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --SCGrayishblue: hsl(220, 14%, 75%);
+}
+
+@font-face {
+    font-family: Kumbh-Sans;
+    src: url(./font/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+@font-face {
+    font-family: Kumbh-B;
+    src: url(./font/static/KumbhSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Kumbh-M;
+    src: url(./font/static/KumbhSans-Medium.ttf);
+}
+@font-face {
+    font-family: Kumbh-B;
+    src: url(./font/static/KumbhSans-Regular.ttf);
+}
+@media screen and (min-width: 1024px) {
+    .cartList {
+        box-shadow: 2px 5px 10px 4px var(--SCGrayishblue);
+    }
+}
+.notfi {
+    padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+}
+.highlightthumb{
+    width: 5rem;
+    height: 5rem;
+}
+.highlightmain{
+    width: 40%;
+}
+@media screen and (min-width:1280px) {
+    .highlightthumb{
+        width: 5rem;
+        height: 5rem;
+    }
+    .highlightmain{
+        width: 35%;
+    }
+}
+/* @media screen and(min-width: 1280) {
+    #specialImage {
+         width: 60%;
+    }
+   
+} */
